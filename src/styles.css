@@ -1,0 +1,38 @@
+/* Adding font design to the body of HTML */
+body {
+  font-family: monospace;
+}
+
+/* Defining the blue shadow main and sub divs */
+.blue-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 139, 253, 0.25);
+}
+
+/* Changing the default style of the 'btn' class */
+.btn {
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(172, 167, 167);
+}
+
+/* Animation added to the active button */
+.btn:active {
+  transform: translateY(4px);
+}
+
+/* Styling added to the active/selected/clicked button */
+.activeBtn {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ffc04c;
+  --bs-btn-border-color: #fab636;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #fab636;
+  --bs-btn-hover-border-color: #fab636;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ffc04c;
+  --bs-btn-active-border-color: #ffc04c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #ffc04c;
+  --bs-btn-disabled-border-color: #ffc04c;
+}
