@@ -1,7 +1,7 @@
 # CodingNinja-IMDB-Clone-Project
 
 
-### View this web page at : hhttps://mahimabhatt12.github.io/mahimabhatt12.github.io-imdb-clone-/
+### View this web page at : https://mahimabhatt12.github.io/mahimabhatt12.github.io-imdb-clone-/
 
 ## Features
 
