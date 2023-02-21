@@ -1,7 +1,10 @@
+//Fetched and stored the results div element to store the movie listing in a constant variable: results
 const results = document.getElementById('results');
-let movies = JSON.parse(localStorage.getItem('Favourite movies'));
-console.log(movies);
 
+//Fetched and stored the localStored movie information in a constant variable: movie
+let movies = JSON.parse(localStorage.getItem('Favourite movies'));
+
+//Function to create the structure of the localStored movie informations in a listing format in order to display the data on the HTML page
 if(movies != null && movies.length > 0){
     for (var i = 0; i < movies.length; i++) {
         results.innerHTML += `
@@ -28,12 +31,12 @@ if(movies != null && movies.length > 0){
     }
 }
 
-//Add click event on favourite button
+//Fetched and stored all the elemets having a common class 'favouriteRemove' in a constant variable: results
 let favRemoveBtn = document.querySelectorAll(".favouriteRemove");
+//Add click event on the click of favourite remove button
 for(let i = 0; i < favRemoveBtn.length; i++) {
     favRemoveBtn[i].addEventListener("click", (e) => {
         movieTitle = e.target.parentElement.id;
-        console.log(movieTitle);
         favRemoveBtn[i].style.backgroundColor = "#dc3545";
         favRemoveBtn[i].style.color = "#fff";
         let favMovies = [];
