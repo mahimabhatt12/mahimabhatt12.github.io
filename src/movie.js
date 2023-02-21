@@ -1,6 +1,10 @@
+//Fetched and stored the 'results' div element in a constant variable: results
 const results = document.getElementById('results');
+
+//Fetched and stored the localStored movie information in a constant variable: movie
 let movie = JSON.parse(localStorage.getItem('Movie Information'));
 
+//Function to create the structure of the localStored movie informations in a listing format in order to display the data on the HTML page
 if(movie){
     results.innerHTML = `
     <div class="card mb-3">
