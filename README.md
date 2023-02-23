@@ -22,15 +22,15 @@
 
 * Home Page
 
-  ![](img/hompage.png)
+  ![](img/HomePage.png)
 
 * Movie Page
   
-  ![](img/moviepage.png)
+  ![](img/MoviePage.png)
   
 * My Favourite Page
   
-  ![](img/myfavouritemovies.png)
+  ![](img/FavouritePage.png)
   
 ## Approach
 
